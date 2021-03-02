@@ -300,9 +300,6 @@ curl -F "file=@/path/to/your/file.jpg" $url
 Or if you want to pipe to curl *and* have a file extension, add a "filename":
 echo "hello" | curl -F "file=@-;filename=.txt" $url
 
-On Windows, you can use <a href="https://getsharex.com/">ShareX</a> and import <a href="$sharex_url">this</a> custom uploader.
-On Android, you can use an app called <a href="https://github.com/Rouji/Hupl">Hupl</a> with <a href="$hupl_url">this</a> uploader.
-
 
 Or simply choose a file and click "Upload" below:
 (Hint: If you're lucky, your browser may support drag-and-drop onto the file 
@@ -337,7 +334,7 @@ The PHP script used to provide this service is open source and available on
 
  === Contact ===
 If you want to report abuse of this service, or have any other inquiries, 
-please write an email to $ADMIN_EMAIL
+please write an email to admin@alxtra.cf
 </pre>
 </body>
 </html>
